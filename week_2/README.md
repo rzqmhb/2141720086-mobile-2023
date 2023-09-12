@@ -1,4 +1,4 @@
-# Pemrograman Mobil - Pertemuan 1
+# Pemrograman Mobile - Pertemuan 2
 ```
 Nama            : Roziq Mahbubi
 NIM             : 2141720086
