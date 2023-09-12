@@ -66,12 +66,14 @@ NIM             : 2141720086
 <br>
 <br>
 - Perbaikan langkah 3 
-  ![image](docs/kode_praktikum3_koreksi.png)
 <br>
-  ![image](docs/output_praktikum3_koreksi.png)
+pada kode di bawah, pemilihan kondisi pada <i>else if</i> akan melakukan <i>continue</i> apabila index bernilai lebih dari 13 dan kurang dari 17, yang artinya apabila index bernilai 14 sampai dengan 16, maka program akan melakukan <i>continue</i>.
 <br>
-pada kode di atas, pemilihan kondisi pada <i>else if</i> akan melakukan <i>continue</i> apabila index bernilai lebih dari 13 dan kurang dari 17, yang artinya apabila index bernilai 14 sampai dengan 16, maka program akan melakukan <i>continue</i>.
 
+ ![image](docs/kode_praktikum3Koreksi.png)
+<br>
+
+ ![image](docs/output_praktikum3Koreksi.png)
 #### Tugas
 
 - output :
@@ -80,3 +82,5 @@ pada kode di atas, pemilihan kondisi pada <i>else if</i> akan melakukan <i>conti
 #### Switch-Case
 
 Pada bahasa pemrograman dart, apabila pada penggunaan switch-case, jika case yang bernilai true tidak berisi argumen apapun, maka program akan melanjutkan pada case berikutnya hingga program menemui titik koma yang dianggap sebagai break.
+
+![image](docs/output_switchcase.png)
