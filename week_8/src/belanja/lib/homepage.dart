@@ -1,4 +1,5 @@
 import 'package:belanja/models/item.dart';
+import 'package:belanja/widget/footer.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget{
@@ -127,6 +128,7 @@ class HomePage extends StatelessWidget{
           }),
         ),
       ),
+      bottomNavigationBar: Footer(),
     );
   }
 }
