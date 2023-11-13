@@ -54,3 +54,16 @@ NIM         : 2141720086
    <br> Hal yang dilakukan pada praktikum 2 : <br>
    - melakukan pembuatan InheritedWidget yang dapat melakukan notify ketika ada perubahan value berupa class PlanProvider yang menagmbil data dari class Plan.
    - merubah cara pengambilan data dari tiap widget di view plan_screen menjadi pengambilan data melalui valueNotifier dari PlanProvider yang diinisiasikas pada main.dart.
+
+### Praktikum 3
+
+#### Output
+![image](docs/p3o.gif)
+
+#### Tugas Praktikum
+##### Pertanyaan :
+![image](docs/soalp3.png)
+1. Berdasarkan Praktikum 3 yang telah Anda lakukan, jelaskan maksud dari gambar diagram berikut ini!
+
+##### Jawaban : 
+1. Pada praktikum 3, dilakukan perubahan PlanProvider untuk mengembalikan list dari Plan, lalu pada main.dart merubah halaman home dari PlanScreen ke PlanCreatorScreen, di mana pada views PlanCreatorScreen ditampilkan textfield untuk membuat Plan baru dan di bawah textfield terdapat listview dari list Plan yang telah dibuat yang ketika ditekan, akan melakukan navigasi ke views PlanScreen yang tampilannya sama seperti praktikum 2.
