@@ -18,8 +18,12 @@ Tambahkan nama panggilan Anda pada title app sebagai identitas hasil pekerjaan A
 ![Alt text](image-2.png)
 ![Alt text](image-1.png)
 
-#### Soal 
+#### Soal 3
+* Jelaskan maksud kode langkah 5 tersebut terkait substring dan catchError!
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 3".
 ##### Jawaban :
+1. pada langkah 5, subString bertujuan untuk merubah value yang didapatkan dari ```value.body.toString()``` menjadi hanya karakter dari value tersebut dimulai dari karakter pada index 0 hingga karakter pada index 450.
+2. output: ![Alt text](image-3.png)
  
 #### Soal 
 ##### Jawaban :
