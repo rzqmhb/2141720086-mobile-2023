@@ -25,8 +25,13 @@ Tambahkan nama panggilan Anda pada title app sebagai identitas hasil pekerjaan A
 1. pada langkah 5, subString bertujuan untuk merubah value yang didapatkan dari ```value.body.toString()``` menjadi hanya karakter dari value tersebut dimulai dari karakter pada index 0 hingga karakter pada index 450. Sedangkan catchError merupakan error handling yang akan dijalankan apabila pengambilan data dari API gagal.
 2. output:<br> ![Alt text](mobile.gif)
  
-#### Soal 
+#### Soal 4
+* Jelaskan maksud kode langkah 1 dan 2 tersebut!
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 4".
 ##### Jawaban :
+1. * kode pada langkah 1 berisi function yang akan mengembalikan masing-masing nilai 1, 2 dan 3 yang pengembalian nilainya di-delay dengan waktu 3 detik.
+   * kode pada langkah 2 adalah method yang digunakan untuk menghitung total dari data kembalian ketiga function sebelumnya, pengambilan nilai dari ketiga function dilakukan satu persatu sehingga waktu tunggu untuk nilai kembalian function count() adalah 9 detik.
+2. output : <br> ![Alt text](mobile-1.gif)
  
 #### Soal 
 ##### Jawaban :
