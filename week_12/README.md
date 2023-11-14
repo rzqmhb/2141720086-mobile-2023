@@ -22,8 +22,8 @@ Tambahkan nama panggilan Anda pada title app sebagai identitas hasil pekerjaan A
 * Jelaskan maksud kode langkah 5 tersebut terkait substring dan catchError!
 * Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 3".
 ##### Jawaban :
-1. pada langkah 5, subString bertujuan untuk merubah value yang didapatkan dari ```value.body.toString()``` menjadi hanya karakter dari value tersebut dimulai dari karakter pada index 0 hingga karakter pada index 450.
-2. output: ![Alt text](image-3.png)
+1. pada langkah 5, subString bertujuan untuk merubah value yang didapatkan dari ```value.body.toString()``` menjadi hanya karakter dari value tersebut dimulai dari karakter pada index 0 hingga karakter pada index 450. Sedangkan catchError merupakan error handling yang akan dijalankan apabila pengambilan data dari API gagal.
+2. output:<br> ![Alt text](mobile.gif)
  
 #### Soal 
 ##### Jawaban :
