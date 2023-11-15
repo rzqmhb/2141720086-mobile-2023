@@ -55,8 +55,11 @@ Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan co
 ##### Jawaban :
 ![Alt text](mobile-4.gif)
  
-#### Soal 
+#### Soal 8
+Jelaskan maksud perbedaan kode langkah 1 dan 4!
 ##### Jawaban :
+1. Perbedaan langkah 1 dan 4 adalah pada pengimplementasian grouping future. Di mana pada langkah 1 digunakan tipe data ```FutureGroup```, yang mana dibutuhkan penambahan Future secara satu persatu dan diperlukan untuk di-close agar ```Futuregroup``` dapat dijalankan. Sedangkan pada langkah 4 dilakukan grouping dengan menggunakan list pada ```Future.wait()``` yang akan langsung diselesaikan dengan function ```.wait()```, sehingga semua Future yang ingin diselesaikan secara bersamaan harus didefinisikan di dalam list, jika tidak, maka Future tidak akan bisa diselesaikan secara bersamaan.
+2. output : <br> ![Alt text](mobile-5.gif)
  
 #### Soal 
 ##### Jawaban :
