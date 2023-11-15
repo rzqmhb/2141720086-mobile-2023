@@ -35,7 +35,13 @@ class _FuturePageState extends State<FuturePage> {
   String result = '';
   late Completer completer;
 
+  Future returnError() async {
+    await Future.delayed(const Duration(seconds: 2));
+    throw Exception('Something terrible happened!');
+  }
+
   void returnFG() {
+    //praktikum 4 soal 8
     final futureGroup = Future.wait<int>([
       returnOneAsync(),
       returnTwoAsync(),
@@ -50,6 +56,7 @@ class _FuturePageState extends State<FuturePage> {
         result = total.toString();
       });
     });
+
     //praktikum 4 soal 7
     // FutureGroup<int> futureGroup = FutureGroup<int>();
     // futureGroup.add(returnOneAsync());
@@ -134,8 +141,19 @@ class _FuturePageState extends State<FuturePage> {
             ElevatedButton(
               child: const Text('GO!'),
               onPressed: () {
+                //praktikum 5
+                returnError().then((value) {
+                  setState(() {
+                    result = "Success";
+                  });
+                }).catchError((onError){
+                  setState(() {
+                    result = onError.toString();
+                  });
+                }).whenComplete(() => print('Complete'));
+
                 //praktikum 4
-                returnFG();
+                // returnFG();
 
                 //praktikum 3 soal 6
                 // getNumber().then((value) {
