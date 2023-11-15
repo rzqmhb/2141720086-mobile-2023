@@ -73,11 +73,20 @@ Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya?
 1. Pada langkah 1, method ```returnError``` hanya digunakan untuk melakukan ```throw exception``` dan error handling dilakukan di ```onPressed()``` pada ```elevatedButton```, sedangkan pada langkah 4, error handling dilakukan pada function ```handleError()```.
 2. output : <br> ![Alt text](image-4.png) <br> ![Alt text](mobile-7.gif)
  
-#### Soal 
+#### Soal 11
+Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
 ##### Jawaban :
+![Alt text](image-5.png)
  
-#### Soal 
+#### Soal 12
+* Jika Anda tidak melihat animasi loading tampil, kemungkinan itu berjalan sangat cepat. Tambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
+* Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 12".
 ##### Jawaban :
+1. kode : <br >![Alt text](image-6.png)
+2. jika aplikasi dijalankan menggunakan emulator browser, maka akan tetap mendapatkan koordinat lokasi <br> emulator browser : <br> ![Alt text](image-7.png) <br> ![Alt text](image-8.png)
+3. emulator AndroidStudio : <br> ![Alt text](mobile-8.gif) <br> emulator smartphone : <br> ![Alt text](mobile-9.gif)
+4. Kesimpulan : pengaksesan lokasi menggunakan emulator browser dan emulator smartphone akan mendapatkan informasi lokasi sebenarnya dari device, sebaliknya emulator AndroidStudio akan mengembalikan informasi lokasi yang salah.
  
 #### Soal 
 ##### Jawaban :
