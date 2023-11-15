@@ -64,10 +64,14 @@ Jelaskan maksud perbedaan kode langkah 1 dan 4!
 #### Soal 9
 Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 9".
 ##### Jawaban :
-![Alt text](mobile-6.gif)
+![Alt text](mobile-6.gif) <br>
+![Alt text](image-3.png)
  
-#### Soal 
+#### Soal 10
+Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya? Jelaskan perbedaan kode langkah 1 dan 4!
 ##### Jawaban :
+1. Pada langkah 1, method ```returnError``` hanya digunakan untuk melakukan ```throw exception``` dan error handling dilakukan di ```onPressed()``` pada ```elevatedButton```, sedangkan pada langkah 4, error handling dilakukan pada function ```handleError()```.
+2. output : <br> ![Alt text](image-4.png) <br> ![Alt text](mobile-7.gif)
  
 #### Soal 
 ##### Jawaban :
