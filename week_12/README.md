@@ -50,8 +50,10 @@ Tambahkan nama panggilan Anda pada title app sebagai identitas hasil pekerjaan A
 1. Perbedaan langkah 2 dan langkah 5-6 adalah pada langkah 5-6 dilakukan error handling dimana jika terjadi error pada proses asynchronous, maka pada tahap ```completer.complete()``` akan dinyatakan sebagai error dan pada tahap ```getNumber().then()``` akan ditambahkan ```catchError``` yang melakukan inisiasi pada variable result sehingga menjadi ```result = 'An error occurred';```.
 2. output : <br> ![output](mobile-3.gif)
  
-#### Soal 
+#### Soal 7
+Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 7".
 ##### Jawaban :
+![Alt text](mobile-4.gif)
  
 #### Soal 
 ##### Jawaban :
