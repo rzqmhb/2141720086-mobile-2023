@@ -33,8 +33,15 @@ Tambahkan nama panggilan Anda pada title app sebagai identitas hasil pekerjaan A
    * kode pada langkah 2 adalah method yang digunakan untuk menghitung total dari data kembalian ketiga function sebelumnya, pengambilan nilai dari ketiga function dilakukan satu persatu sehingga waktu tunggu untuk nilai kembalian function count() adalah 9 detik.
 2. output : <br> ![Alt text](mobile-1.gif)
  
-#### Soal 
+#### Soal 5
+* Jelaskan maksud kode langkah 2 tersebut!
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 5".
 ##### Jawaban :
+1. Pada langkah 2 dilakukan :
+   * deklarasi variable late sekaligus Completer bernama completer, tipe completer bertujuan agar variable late dapat diisi dengan menggunakan future.
+   * inisiasi function ```getNumber()``` yang memberikan tipe kembalian int pada variable completer, memanggil function ```calculate()``` dan mengembalikan value future dari variable completer.
+   * inisiasi function ```calculate()``` sebagai function asynchronous dan memiliki delay execution selama 5 detik, dan menyelesaikan variable completer dengan memanggil ```completer.complete(42)```
+2. output : <br> ![Alt text](mobile-2.gif)
  
 #### Soal 
 ##### Jawaban :
