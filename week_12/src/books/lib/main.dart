@@ -42,9 +42,19 @@ class _FuturePageState extends State<FuturePage> {
   }
 
   Future calculate() async {
-    await Future.delayed(const Duration(seconds : 5));
-    completer.complete(42);
+    try {
+      await Future.delayed(const Duration(seconds : 5));
+      completer.complete(42);
+    } catch (_) {
+      completer.completeError({});
+    }
   }
+
+  // praktikum 3 soal 5
+  // Future calculate() async {
+  //   await Future.delayed(const Duration(seconds : 5));
+  //   completer.complete(42);
+  // }
 
   Future<Response> getData() async {
     const authority = "www.googleapis.com";
@@ -91,12 +101,21 @@ class _FuturePageState extends State<FuturePage> {
             ElevatedButton(
               child: const Text('GO!'),
               onPressed: () {
-                //praktikum 3
+                //praktikum 3 soal 6
                 getNumber().then((value) {
                   setState(() {
                     result = value.toString();
                   });
+                }).catchError((e) {
+                  result = 'An error occurred';
                 });
+
+                //praktikum 3 soal 5
+                // getNumber().then((value) {
+                //   setState(() {
+                //     result = value.toString();
+                //   });
+                // });
                 
                 //praktikum 2
                 // count();
