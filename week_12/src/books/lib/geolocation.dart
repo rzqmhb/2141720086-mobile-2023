@@ -54,6 +54,11 @@ class _LocationScreenState extends State<LocationScreen> {
             if (snapshot.connectionState == ConnectionState.waiting) {
               return const CircularProgressIndicator();
             } else if (snapshot.connectionState == ConnectionState.done) {
+              //soal 14
+              if (snapshot.hasError) {
+                return Text('Something terrible happened!');
+              }
+              //soal 13
               return Text(snapshot.data.toString());
             } else {
               return const Text('');
