@@ -102,8 +102,12 @@ Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerja
 1. Tidak, karena kode yang ditambahkan hanyalah errorHandling dan pada proses eksekusi aplikasi tidak terjadi error.
 2. output : <br> ![Alt text](mobile-11.gif)
  
-#### Soal 
+#### Soal 15
+* Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+* Silakan ganti dengan warna tema favorit Anda.
 ##### Jawaban :
+1. Menambahkan nama : <br> ![Alt text](image-9.png) <br> ![Alt text](image-10.png) <br> ![Alt text](image-11.png)
+2. ![Alt text](image-12.png)
  
 #### Soal 
 ##### Jawaban :
