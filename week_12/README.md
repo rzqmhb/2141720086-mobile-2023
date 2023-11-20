@@ -88,8 +88,12 @@ Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerja
 3. emulator AndroidStudio : <br> ![Alt text](mobile-8.gif) <br> emulator smartphone : <br> ![Alt text](mobile-9.gif)
 4. Kesimpulan : pengaksesan lokasi menggunakan emulator browser dan emulator smartphone akan mendapatkan informasi lokasi sebenarnya dari device, sebaliknya emulator AndroidStudio akan mengembalikan informasi lokasi yang salah.
  
-#### Soal 
+#### Soal 13
+* Apakah ada perbedaan UI dengan praktikum sebelumnya? Mengapa demikian?
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 13".
 ##### Jawaban :
+1. Ya, output visual aplikasi berubah menjadi animasi progress indicator ketika informasi location belum diselesaikan. Hal ini terjadi karena variable position yang menyimpan informasi lokasi device dinaikkan pada hierarki tree menjadi child dari state, dan nilainya didapatkan menggunakan function getPosition pada initState() dan pada method build digunakan pemilihan kondisi yang menampilkan output visual sesuai value position di dalam widget FutureBuilder yang berkemungkinan memiliki Listener untuk object Future sehingga dapat melakukan update tampilan ketika terjadi perubahan value sebuah Future.
+2. output : <br> ![Alt text](mobile-10.gif)
  
 #### Soal 
 ##### Jawaban :
