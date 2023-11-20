@@ -109,8 +109,14 @@ Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerja
 1. Menambahkan nama : <br> ![Alt text](image-9.png) <br> ![Alt text](image-10.png) <br> ![Alt text](image-11.png)
 2. ![Alt text](image-12.png)
  
-#### Soal 
+#### Soal 16
+* Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+* Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit dengan pesan "W12: Soal 16".
 ##### Jawaban :
+1. Terjadi pergantian warna ketika menekan warna lain pada halaman kedua. Hal ini terjadi karena pada widget elevated button pada halaman kedua, dilakukan pop pada navigator yang diikuti dengan parameter berupa variable color dengan value yang berbeda.
+2. ubah warna : <br> ![Alt text](image-13.png)
+3. output : <br> ![Alt text](mobile-12.gif)
  
 #### Soal 
 ##### Jawaban :
