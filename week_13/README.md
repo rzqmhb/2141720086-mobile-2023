@@ -52,9 +52,14 @@ NIM         : 2141720086
     pada langkah 10 ditambahkan function baru yang melakukan penambahan data angka baru yang didapatkan dari random pada ``sink`` dari ``numberStream``
 2. output : <br> ![Alt text](mobile-1.gif)
  
-#### Soal 
-
+#### Soal 7
+* Jelaskan maksud kode langkah 13 sampai 15 tersebut!
+* Kembalikan kode seperti semula pada Langkah 15, comment addError() agar Anda dapat melanjutkan ke praktikum 3 berikutnya.
+* Lalu lakukan commit dengan pesan "W13: Jawaban Soal 7".
 ##### Jawaban :
+1. pada langkah 13 dilakukan penambahan function addError() untuk menambahkan status error pada proses Stream. Pada langlah 14 dilakukan penambahan error handling pada listener stream, yang akan merubah nilai lastNumber menjadi -1 jika terjadi error. Dan pada langkah 15 dilakukan perubahan pada function addRandomNumber() sehingga function tersebut akan menambahkan status error pada Stream daripada menambahkan data baru pada sink milik Stream.
+2. ![Alt text](image-3.png)
+3. output : <br> ![Alt text](mobile-2.gif)
  
 #### Soal 
 
