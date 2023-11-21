@@ -40,9 +40,17 @@ NIM         : 2141720086
 ##### Jawaban :
 1. penggunaan await for() akan menghentikan sementara flow aplikasi hingga proses dari Stream telah selesai, sementara pada listen flow aplikasi tidak terhenti untuk menunggu selesainya proses Stream.
  
-#### Soal 
-
+#### Soal 6
+* Jelaskan maksud kode langkah 8 dan 10 tersebut!
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+* Lalu lakukan commit dengan pesan "W13: Jawaban Soal 6".
 ##### Jawaban :
+1. 
+   1. langkah 8 :
+    pada langkah 8 dilakukan modifikasi pada ``initState()``, di mana dilakukan instansiasi ``numberStream``, inisiasi ``numberStreamController``, deklarasi stream baru yang merupakan stream numberStream yang dimulai menggunakan ``numberStreamController.stream()``, dan juga pembuatan listener untuk stream tersebut yang memiliki ``setState`` yang merubah nilai ``lastNumber`` menjadi nilai terbaru dari stream tersebut.
+   2. langkah 10 :
+    pada langkah 10 ditambahkan function baru yang melakukan penambahan data angka baru yang didapatkan dari random pada ``sink`` dari ``numberStream``
+2. output : <br> ![Alt text](mobile-1.gif)
  
 #### Soal 
 
