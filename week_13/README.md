@@ -34,9 +34,11 @@ NIM         : 2141720086
 ##### Jawaban :
 ![Alt text](mobile.gif)
  
-#### Soal 
-
+#### Soal 5
+* Jelaskan perbedaan menggunakan listen dan await for (langkah 9) !
+* Lakukan commit hasil jawaban Soal 5 dengan pesan "W13: Jawaban Soal 5"
 ##### Jawaban :
+1. penggunaan await for() akan menghentikan sementara flow aplikasi hingga proses dari Stream telah selesai, sementara pada listen flow aplikasi tidak terhenti untuk menunggu selesainya proses Stream.
  
 #### Soal 
 
