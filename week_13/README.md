@@ -14,51 +14,52 @@ NIM         : 2141720086
 1. ![Alt text](image.png)
 2. ![Alt text](image-1.png)
  
+#### Soal 2
+ * Tambahkan 5 warna lainnya sesuai keinginan Anda pada variabel colors tersebut.
+ * Lakukan commit hasil jawaban Soal 2 dengan pesan "W13: Jawaban Soal 2"
+##### Jawaban :
+ 1. ![Alt text](image-2.png)
 #### Soal 
- 
+
 ##### Jawaban :
  
 #### Soal 
- 
+
 ##### Jawaban :
  
 #### Soal 
- 
+
 ##### Jawaban :
  
 #### Soal 
- 
+
 ##### Jawaban :
  
 #### Soal 
- 
+
 ##### Jawaban :
  
 #### Soal 
- 
+
 ##### Jawaban :
  
 #### Soal 
- 
+
 ##### Jawaban :
  
 #### Soal 
- 
+
 ##### Jawaban :
  
 #### Soal 
- 
+
 ##### Jawaban :
  
 #### Soal 
- 
+
 ##### Jawaban :
  
 #### Soal 
- 
-##### Jawaban :
- 
-#### Soal 
- 
+
 ##### Jawaban :
  
