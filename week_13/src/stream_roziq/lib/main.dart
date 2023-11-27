@@ -82,7 +82,8 @@ class _StreamHomePageState extends State<StreamHomePage> {
     //praktikum 2
     numberStream = NumberStream();
     numberStreamController = numberStream.controller;
-    Stream stream = numberStreamController.stream;
+    Stream stream = numberStreamController.stream.asBroadcastStream();
+    // Stream stream = numberStreamController.stream;
     // stream.listen((event) {
     //   setState(() {
     //     lastNumber = event;
@@ -165,7 +166,9 @@ class _StreamHomePageState extends State<StreamHomePage> {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text(lastNumber.toString()),
+            // Text(lastNumber.toString()),
+            //praktikum 5 soal 15
+            Text(values),
             ElevatedButton(
               onPressed: () {
                 addRandomNumber();

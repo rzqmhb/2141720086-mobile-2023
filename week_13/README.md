@@ -86,9 +86,14 @@ NIM         : 2141720086
 1. Error terjadi karena stream hanya bisa memiliki satu listener saja.
 2. output : <br> ![Alt text](image-5.png)
  
-#### Soal 
+#### Soal 11
+* Jelaskan mengapa hal itu bisa terjadi ?
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+* Lalu lakukan commit dengan pesan "W13: Jawaban Soal 10,11".
 
 ##### Jawaban :
+1. Hal itu bisa terjadi karena pada saat stream dimulai, stream dimulai sebagai broadcaster, sehingga stream dapat memiliki lebih dari satu listener melalui subscription.
+2. output : <br> ![Alt text](mobile-5.gif)
  
 #### Soal 
 
