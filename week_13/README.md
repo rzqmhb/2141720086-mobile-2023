@@ -95,9 +95,14 @@ NIM         : 2141720086
 1. Hal itu bisa terjadi karena pada saat stream dimulai, stream dimulai sebagai broadcaster, sehingga stream dapat memiliki lebih dari satu listener melalui subscription.
 2. output : <br> ![Alt text](mobile-5.gif)
  
-#### Soal 
+#### Soal 12
+* Jelaskan maksud kode pada langkah 3 dan 7 !
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+* Lalu lakukan commit dengan pesan "W13: Jawaban Soal 12".
 
 ##### Jawaban :
+1. Pada langkah 3 dibuat function bertipe Stream yang mengembalikan data angka random tiap 1 detik. Pada langkah 7 dilakukan penampilan data random yang diperoleh dari function pada langkah 3 yang dipanggil pada ``initState()`` dan disimpan pada ``numberStream``, data tersebut ditampilkan menggunakan widget ```StreamBuilder()``` yang memiliki listener sehingga tidak perlu untuk membuat listener sendiri, pada atribut builder ditambahkan pemilihan kondisi, jika terjadi error maka akan dilakukan print 'error' pada debug console, jika ada data yang diterima maka data ditampilkan dengan ukuran font 96, jika tidak ada data maka akan ditampilkan ```SizedBox.shrink()```
+2. output : <br> ![Alt text](mobile-6.gif)
  
 #### Soal 
 
