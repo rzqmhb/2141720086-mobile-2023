@@ -61,9 +61,14 @@ NIM         : 2141720086
 2. ![Alt text](image-3.png)
 3. output : <br> ![Alt text](mobile-2.gif)
  
-#### Soal 
+#### Soal 8
+* Jelaskan maksud kode langkah 1-3 tersebut!
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+* Lalu lakukan commit dengan pesan "W13: Jawaban Soal 8".
 
 ##### Jawaban :
+1. Pada langkah 1-3, dilakukan penambahan transformer dan penggantian listener untuk melewati transformer terlebih dahulu. Transformer stream digunakan untuk memanipulasi data yang akan dimasukkan ke dalam sink milik stream.
+2. output : <br> ![Alt text](mobile-3.gif)
  
 #### Soal 
 
