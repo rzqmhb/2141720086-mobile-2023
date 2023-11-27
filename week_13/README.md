@@ -70,9 +70,14 @@ NIM         : 2141720086
 1. Pada langkah 1-3, dilakukan penambahan transformer dan penggantian listener untuk melewati transformer terlebih dahulu. Transformer stream digunakan untuk memanipulasi data yang akan dimasukkan ke dalam sink milik stream.
 2. output : <br> ![Alt text](mobile-3.gif)
  
-#### Soal 
+#### Soal 9
+* Jelaskan maksud kode langkah 2, 6 dan 8 tersebut!
+* Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
+* Lalu lakukan commit dengan pesan "W13: Jawaban Soal 9". 
 
 ##### Jawaban :
+1. Pada langkah 2 dilakukan perubahan listener menjadi variable subscription. Pada langkah 6 dilakukan penutupan subscription pada methos ``dispose()``. Pada langkah 8 dilakukan perubahan pada methos ``addRandomNumber()`` dengan menambahkan pemilihan kondisi jika subscription belum ditutup dan sudah ditutup.
+2. output : <br> ![Alt text](image-4.png) <br> ![Alt text](mobile-4.gif)
  
 #### Soal 
 
