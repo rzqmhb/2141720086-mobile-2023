@@ -79,9 +79,12 @@ NIM         : 2141720086
 1. Pada langkah 2 dilakukan perubahan listener menjadi variable subscription. Pada langkah 6 dilakukan penutupan subscription pada methos ``dispose()``. Pada langkah 8 dilakukan perubahan pada methos ``addRandomNumber()`` dengan menambahkan pemilihan kondisi jika subscription belum ditutup dan sudah ditutup.
 2. output : <br> ![Alt text](image-4.png) <br> ![Alt text](mobile-4.gif)
  
-#### Soal 
+#### Soal 10
+* Jelaskan mengapa error itu bisa terjadi ?
 
 ##### Jawaban :
+1. Error terjadi karena stream hanya bisa memiliki satu listener saja.
+2. output : <br> ![Alt text](image-5.png)
  
 #### Soal 
 

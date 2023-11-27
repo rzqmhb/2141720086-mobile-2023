@@ -37,6 +37,8 @@ class _StreamHomePageState extends State<StreamHomePage> {
   late NumberStream numberStream;
   late StreamTransformer transformer;
   late StreamSubscription subscription;
+  late StreamSubscription subscription2;
+  String values = '';
 
   void changeColor () async {
     //praktikum 1 soal 5
@@ -91,20 +93,33 @@ class _StreamHomePageState extends State<StreamHomePage> {
     //   });
     // });
     
-    //praktikum 4
+    //praktikum 5 soal 10
     subscription = stream.listen((event) { 
       setState(() {
-        lastNumber = event;
+        values += '$event - ';
       });
     });
-    subscription.onError((error) {
+
+    subscription2 = stream.listen((event) { 
       setState(() {
-        lastNumber = -1; 
+        values += '$event - ';
       });
     });
-    subscription.onDone(() {
-      debugPrint('onDone was called');
-    });
+    
+    //praktikum 4
+    // subscription = stream.listen((event) { 
+    //   setState(() {
+    //     lastNumber = event;
+    //   });
+    // });
+    // subscription.onError((error) {
+    //   setState(() {
+    //     lastNumber = -1; 
+    //   });
+    // });
+    // subscription.onDone(() {
+    //   debugPrint('onDone was called');
+    // });
 
     // praktikum 3
     // transformer = StreamTransformer<int, int>.fromHandlers(
